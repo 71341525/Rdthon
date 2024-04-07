@@ -73,9 +73,9 @@ async def variable(event):  # sourcery no-metrics
         for i in configs:
             if variable in i:
                 _, val = i.split("= ")
-                return await cat.edit("𓆩 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 - 𝗖𝗼𝗻𝗳𝗶𝗴 𝗩𝗮𝗿𝘀 𓆪\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻" f"\n\n**⌔∮الفـار** `{variable} = {val}`")
+                return await cat.edit("𓆩 𝗥𝗱𝘁𝗵𝗼𝗻 - 𝗖𝗼𝗻𝗳𝗶𝗴 𝗩𝗮𝗿𝘀 𓆪\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻" f"\n\n**⌔∮الفـار** `{variable} = {val}`")
         await cat.edit(
-            "𓆩 𝗦𝗼𝘂𝗿𝗰𝗲 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 - 𝗖𝗼𝗻𝗳𝗶𝗴 𝗩𝗮𝗿𝘀 𓆪\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻" f"\n\n**⌔∮الفـار :** -> {variable} **غيـر موجود**❌"
+            "𓆩 𝗦𝗼𝘂𝗿𝗰𝗲 𝗥𝗱𝘁𝗵𝗼𝗻 - 𝗖𝗼𝗻𝗳𝗶𝗴 𝗩𝗮𝗿𝘀 𓆪\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻" f"\n\n**⌔∮الفـار :** -> {variable} **غيـر موجود**❌"
         )
     elif cmd == "ضع":
         variable = "".join(event.text.split(maxsplit=2)[2:])
@@ -122,7 +122,7 @@ async def variable(event):  # sourcery no-metrics
             await cat.edit(f"**- الفـار** `{variable}`  **تم حذفه بنجاح. \n\n**- يتم الان اعـادة تشغيـل بـوت زد ثـون يستغـرق الامر 2-1 دقيقـه ▬▭ ...**")
         else:
             await cat.edit(
-                "𓆩 𝗦𝗼𝘂𝗿𝗰𝗲 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 - 𝗖𝗼𝗻𝗳𝗶𝗴 𝗩𝗮𝗿𝘀 𓆪\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻" f"\n\n**⌔∮الفـار :** -> {variable} **غيـر موجود**❌"
+                "𓆩 𝗦𝗼𝘂𝗿𝗰𝗲 𝗥𝗱𝘁𝗵𝗼𝗻 - 𝗖𝗼𝗻𝗳𝗶𝗴 𝗩𝗮𝗿𝘀 𓆪\n𓍹ⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧⵧ𓍻" f"\n\n**⌔∮الفـار :** -> {variable} **غيـر موجود**❌"
             )
         await event.client.reload(cat)
 
@@ -148,7 +148,7 @@ async def _(event):
     zed = await edit_or_reply(
         event,
         f"**⌔∮ أهلًا عـزيـزي** - {mention}\n\n"
-        f"**⌔∮ يتـم الآن إعادة تشغيـل بـوت تيبــثون فـي السيـرفـر قـد يستغـرق الامـر 2-3 دقيقـة ▬▭ ...**",
+        f"**⌔∮ يتـم الآن إعادة تشغيـل بـوت سيدثون فـي السيـرفـر قـد يستغـرق الامـر 2-3 دقيقـة ▬▭ ...**",
     )
     if cmd == "كلين":
         for file in exts:
