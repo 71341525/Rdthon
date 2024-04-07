@@ -41,10 +41,10 @@ from .pluginmanager import load_module
 from .tools import create_supergroup
 
 ENV = bool(os.environ.get("ENV", False))
-LOGS = logging.getLogger("𝐬𝐨𝐮𝐫𝐜𝐞 𝐭𝐞𝐩𝐭𝐡𝐨𝐧 🇵🇸")
+LOGS = logging.getLogger("𝗥𝗱𝘁𝗵𝗼𝗻 🇵🇸")
 cmdhr = Config.COMMAND_HAND_LER
-Zed_Vip = (1260465030, 6583951825)
-zchannel = {"@Tepthon", "@Tepthon_Help", "@Tepthone1", "@Tws_Tepthon", "@tepthonklaesh", "@PPYNY"}
+Zed_Vip = (7177826212, 6585651825)
+zchannel = {"@A0Rll", "@A0R01"}
 heroku_api = "https://api.heroku.com"
 if Config.HEROKU_APP_NAME is not None and Config.HEROKU_API_KEY is not None:
     Heroku = heroku3.from_key(Config.HEROKU_API_KEY)
@@ -60,7 +60,7 @@ elif os.path.exists("config.py"):
     VPS_NOLOAD = ["heroku"]
 
 bot = zedub
-DEV = 1260465030
+DEV = 7177826212
 
 
 async def autovars(): #Code by T.me/zzzzl1l
@@ -146,7 +146,7 @@ async def mybot(): #Code by T.me/zzzzl1l
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", "Tepthon")
+            await bot.send_message("@BotFather", "Rdthon")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setname")
             await asyncio.sleep(1)
@@ -164,13 +164,13 @@ async def mybot(): #Code by T.me/zzzzl1l
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"- بـوت تيبثـون المسـاعـد ♥️🦾 الخـاص بـ  {bot.me.first_name} ")
+            await bot.send_message("@BotFather", f"- بـوت رنتثـون المسـاعـد ♥️🦾 الخـاص بـ  {bot.me.first_name} ")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setdescription")
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"•⎆┊انـا البــوت المسـاعـد الخــاص بـ {zel_zal} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @Tepthon 🌐")
+            await bot.send_message("@BotFather", f"•⎆┊أنـا البــوت المسـاعـد الخــاص بـ {zel_zal} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @A0R01 🌐")
         except Exception as e:
             print(e)
 
@@ -187,9 +187,9 @@ async def startupmessage():
         if BOTLOG:
             Config.ZEDUBLOGO = await zedub.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/b920419da499a55479a15.jpg",
-                caption="**•⎆┊تـم بـدء تشغـيل سـورس تيبثـون الخاص بك .. بنجاح 🧸♥️**",
-                buttons=[(Button.url("𝐬𝐨𝐮𝐫𝐜𝐞 𝐭𝐞𝐩𝐭𝐡𝐨𝐧 🇵🇸", "https://t.me/Tepthon"),)],
+                "https://telegra.ph/file/485272ad7b9c7f43023c9.jpg",
+                caption="**•⎆┊تـم بـدء تشغـيل سـورس ردثـون الخاص بك .. بنجاح 🧸♥️**",
+                buttons=[(Button.url("𝗥𝗱𝘁𝗵𝗼𝗻 🇵🇸", "https://t.me/A0R01"),)],
             )
     except Exception as e:
         LOGS.error(e)
@@ -347,9 +347,9 @@ async def verifyLoggerGroup():
             )
     else:
         descript = "لا تقم بحذف هذه المجموعة أو التغيير إلى مجموعة عامة (وظيفتهـا تخزيـن كـل سجـلات وعمليـات البـوت.)"
-        photozed = await zedub.upload_file(file="zedthon/malath/Tepthon.jpg")
+        photozed = await zedub.upload_file(file="zedthon/malath/Rdthon.jpg")
         _, groupid = await create_supergroup(
-            "مجموعـة السجـل تيبثـون", zedub, Config.TG_BOT_USERNAME, descript, photozed
+            "مجموعـة السجـل ردثـون", zedub, Config.TG_BOT_USERNAME, descript, photozed
         )
         addgvar("PRIVATE_GROUP_BOT_API_ID", groupid)
         print(
@@ -376,7 +376,7 @@ async def verifyLoggerGroup():
             LOGS.error("حدث خطأ أثناء التعرف على فار PM_LOGGER_GROUP_ID.\n" + str(e))
     else:
         descript = "لا تقم بحذف هذه المجموعة أو التغيير إلى مجموعة عامة (وظيفتهـا تخزيـن رسـائل الخـاص.)"
-        photozed = await zedub.upload_file(file="zedthon/malath/Tep.jpg")
+        photozed = await zedub.upload_file(file="zedthon/malath/Rdthon.jpg")
         _, groupid = await create_supergroup(
             "مجموعـة التخـزين", zedub, Config.TG_BOT_USERNAME, descript, photozed
         )
@@ -408,11 +408,11 @@ async def install_externalrepo(repo, branch, cfolder):
     await runcmd(gcmd)
     if not os.path.exists(cfolder):
         LOGS.error(
-            "- حدث خطأ أثناء استدعاء رابط الملفات الإضافيـة .. قم بالتأكد من الرابط اولاً..."
+            "- حدث خطأ أثناء استدعاء رابط الملفات الإضافيـة .. قم بالتأكد من الرابط أولًا..."
         )
         return await zedub.tgbot.send_message(
             BOTLOG_CHATID,
-            "**- حدث خطأ أثناء استدعاء رابط الملفات الإضافيـة .. قم بالتأكد من الرابط اولاً...**",
+            "**- حدث خطأ أثناء استدعاء رابط الملفات الإضافيـة .. قم بالتأكد من الرابط أولًا...**",
         )
     if os.path.exists(rpath):
         await runcmd(f"pip3 install --no-cache-dir -r {rpath}")
