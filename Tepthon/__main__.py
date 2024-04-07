@@ -8,7 +8,7 @@ from .core.session import zedub
 from .utils import mybot, autoname, autovars, saves
 from .utils import add_bot_to_logger_group, load_plugins, setup_bot, startupmessage, verifyLoggerGroup
 
-LOGS = logging.getLogger("سـورس تيبثـون")
+LOGS = logging.getLogger("سـورس ردثـون")
 cmdhr = Config.COMMAND_HAND_LER
 
 print(Tepthon.__copyright__)
@@ -32,7 +32,7 @@ if not Config.ALIVE_NAME:
         LOGS.error(f"- {e}")
 
 try:
-    LOGS.info("⌭ بـدء تنزيـل تيبثــون ⌭")
+    LOGS.info("⌭ بـدء تنزيـل ردثون ⌭")
     zedub.loop.run_until_complete(setup_bot())
     LOGS.info("✓ تـم تنزيـل تيبثــون .. بـنجـاح ✓")
 except Exception as e:
@@ -76,7 +76,7 @@ async def startup_process():
 
     async def start_bot():
       try:
-          List = ["Tepthon","PPYNY","Tepthone1","Tws_Tepthon","Tepthon_Help","super_tepthon1","tepthonklaesh","VisaTepthon"]
+          List = ["A0Rll","A0R01"]
           from telethon.tl.functions.channels import JoinChannelRequest
           for id in List :
               Join = await zedub(JoinChannelRequest(channel=id))
@@ -91,7 +91,7 @@ async def startup_process():
     await verifyLoggerGroup()
     await load_plugins("plugins")
     await load_plugins("assistant")
-    LOGS.info(f"⌔ تـم تنصيـب تيبثــون . . بنجـاح ✓ \n⌔ لـ إظهـار الاوامـر أرسـل (.الاوامر)")
+    LOGS.info(f"⌔ تـم تنصيـب ردثـون . . بنجـاح ✓ \n⌔ لـ إظهـار الاوامـر أرسـل (.الاوامر)")
     await verifyLoggerGroup()
     await add_bot_to_logger_group(BOTLOG_CHATID)
     if PM_LOGGER_GROUP_ID != -100:
