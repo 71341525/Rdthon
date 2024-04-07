@@ -330,13 +330,13 @@ async def inline_handler(event):  # sourcery no-metrics
 
             (
 
-                Button.url("قنـاة السـورس", "https://t.me/Tepthon"),
+                Button.url("قنـاة السـورس", "https://t.me/A0R01"),
 
                 Button.url(
 
                     "مطـور السـورس",
 
-                    "https://t.me/PPF22",
+                    "https://t.me/r_32i",
 
                 ),
 
@@ -354,7 +354,7 @@ async def inline_handler(event):  # sourcery no-metrics
 
         text, msg_entities = await event.client._parse_message_text(
 
-            "𝗗𝗲𝗽𝗹𝗼𝘆 𝘆𝗼𝘂𝗿 𝗼𝘄𝗻 𝗧𝗘𝗣𝗧𝗛𝗢𝗡.", "md"
+            "𝗗𝗲𝗽𝗹𝗼𝘆 𝘆𝗼𝘂𝗿 𝗼𝘄𝗻 𝗥𝗱𝘁𝗵𝗼𝗻.", "md"
 
         )
 
@@ -364,11 +364,11 @@ async def inline_handler(event):  # sourcery no-metrics
 
             type="photo",
 
-            title="𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𓅛",
+            title="𝗥𝗱𝘁𝗵𝗼𝗻 𓅛",
 
             description="روابـط التنصـيب",
 
-            url="https://t.me/Tepthon/114",
+            url="https://t.me/A0R01",
 
             thumb=photo,
 
