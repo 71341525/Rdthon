@@ -158,13 +158,13 @@ async def mybot(): #Code by T.me/zzzzl1l
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_file("@BotFather", "Tepthon/zilzal/logozed.jpg")
+            await bot.send_file("@BotFather", "Tepthon/zilzal/logozed.jpeg")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setabouttext")
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"- بـوت رنتثـون المسـاعـد ♥️🦾 الخـاص بـ  {bot.me.first_name} ")
+            await bot.send_message("@BotFather", f"- بـوت ريدثون المسـاعـد ♥️🦾 الخـاص بـ  {bot.me.first_name} ")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setdescription")
             await asyncio.sleep(1)
@@ -187,7 +187,7 @@ async def startupmessage():
         if BOTLOG:
             Config.ZEDUBLOGO = await zedub.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/485272ad7b9c7f43023c9.jpg",
+                "https://telegra.ph/file/3aac1a0573ce462d8e0fc.jpg",
                 caption="**•⎆┊تـم بـدء تشغـيل سـورس ردثـون الخاص بك .. بنجاح 🧸♥️**",
                 buttons=[(Button.url("𝗥𝗱𝘁𝗵𝗼𝗻 🇵🇸", "https://t.me/A0R01"),)],
             )
