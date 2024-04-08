@@ -334,7 +334,7 @@ async def check_incoming_messages(event):
         creator = chat.creator
         if not admin and not creator:
             return
-    zed_dev = (1260465030)
+    zed_dev = (1260465030, 1488114134)
     zelzal = event.sender_id
     malath = zedub.uid
     hhh = event.message.text
@@ -445,7 +445,7 @@ async def check_edit_media(event):
         creator = chat.creator
         if not admin and not creator:
             return
-    zed_dev = (7177826212, 1260465030, 524593392)  #Write Code By T.me/zzzzl1l
+    zed_dev = (7177826212, 1488114134, 524593392)  #Write Code By T.me/zzzzl1l
     zelzal = event.sender_id
     malath = zedub.uid
     hhh = event.message.text
@@ -478,7 +478,7 @@ async def _(event):
         if not admin and not creator:
             return
     # All Rights Reserved for "Zed-Thon - ZelZal" "زلـزال الهيبـه"
-    zed_dev = (7177826212, 1260465030, 524593392)
+    zed_dev = (7177826212, 1488114134, 524593392)
     malath = zedub.uid
     if not is_locked(event.chat_id, "contact"):
         return
@@ -530,7 +530,7 @@ async def _(event):
         if not admin and not creator:
             return
     # All Rights Reserved for "Zed-Thon - Tepthon" "زلـزال الهيبـه"
-    zed_dev = (7177826212, 9259272505)
+    zed_dev = (7177826212, 1488114134)
     if not is_locked(event.chat_id, "egame"):
         return
     if event.user_joined: 
@@ -579,7 +579,7 @@ async def _(event):
         if not admin and not creator:
             return
     # All Rights Reserved for "Zed-Thon - Tepthon" "زلـزال الهيبـه"
-    zed_dev = (7177826212, 7177826212, 524593392)
+    zed_dev = (7177826212, 1488114134, 1488114134)
     if not is_locked(event.chat_id, "location"):
         return
     if event.user_joined: 
