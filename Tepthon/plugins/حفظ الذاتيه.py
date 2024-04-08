@@ -18,7 +18,7 @@ zedself = True
 POSC = gvarstatus("Z_POSC") or "(مم|ذاتية|ذاتيه|جلب الوقتيه)"
 
 ZelzalSelf_cmd = (
-    "𓆩 [ᯓ 𝗦𝗼𝘂𝗿𝗰𝗲 - حفـظ الذاتـيـة ♥️](t.me/Tepthon) 𓆪\n\n"
+    "𓆩 [ᯓ 𝗦𝗼𝘂𝗿𝗰𝗲 𝗥𝗱𝘁𝗵𝗼𝗻 - حفـظ الذاتـيـة ♥️](t.me/A0R01) 𓆪\n\n"
     "**⪼** `.تفعيل الذاتيه`\n"
     "**لـ تفعيـل الحفظ التلقائي للذاتيـه**\n"
     "**سوف يقوم حسابك بحفظ الذاتيه تلقائياً في حافظة حسابك عندما يرسل لك اي شخص ميديـا ذاتيـه**\n\n\n"
@@ -26,7 +26,7 @@ ZelzalSelf_cmd = (
     "**لـ تعطيـل الحفظ التلقائي للذاتيـه**\n\n\n"
     "**⪼** `.ذاتيه`\n"
     "**بالـرد ؏ــلى صـوره ذاتيـه لحفظهـا في حال كان امر الحفظ التلقائي معطـل**\n\n"
-    "\n 𓆩 [𝙎𝙊𝙐𝙍𝘾𝞝](t.me/Tepthon) 𓆪"
+    "\n 𓆩 [𝙎𝙊𝙐𝙍𝘾𝞝 𝗥𝗱𝘁𝗵𝗼𝗻](t.me/A0R01) 𓆪"
 )
 
 
@@ -71,7 +71,7 @@ async def sddm(event):
         sender = await event.get_sender()
         chat = await event.get_chat()
         pic = await event.download_media()
-        await zedub.send_file("me", pic, caption=f"[ᯓ 𝗦𝗼𝘂𝗿𝗰𝗲 - حفـظ الذاتـيـة ♥️](t.me/Tepthon) .\n\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n**⌔╎مࢪحبـًا عـزيـزي المـالك 🫂\n⌔╎ تـم حفـظ الذاتيـة تلقائيـًا .. بنجـاح ☑️** ❝\n**⌔╎المـرسـل** {_format.mentionuser(sender.first_name , sender.id)} .")
+        await zedub.send_file("me", pic, caption=f"[ᯓ 𝗦𝗼𝘂𝗿𝗰𝗲 - حفـظ الذاتـيـة ♥️](t.me/A0R01) .\n\n⋆┄─┄─┄─┄┄─┄─┄─┄─┄┄⋆\n**⌔╎مࢪحبـًا عـزيـزي المـالك 🫂\n⌔╎ تـم حفـظ الذاتيـة تلقائيـًا .. بنجـاح ☑️** ❝\n**⌔╎المـرسـل** {_format.mentionuser(sender.first_name , sender.id)} .")
 
 @zedub.zed_cmd(
     pattern="تست (\d*) ([\s\S]*)",
